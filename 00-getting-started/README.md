@@ -1,7 +1,9 @@
 ## Getting started
  1. Login/register on https://github.com/
  2. Create a repository
+
 ![alt text](resources/img/00.png)
+
  3. Copy clone URL
 ![alt text](resources/img/01.png)
  4. Open Eclipse, select a workspace and open Git perspective
