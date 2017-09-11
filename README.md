@@ -16,7 +16,7 @@ The exercises are attempt to practice the basics with Git usful during your day 
 * [__Create a tag:__](10-create-a-tag/README.md) Create your first tag using Git
 * [__Hotfix branch from a tag:__](11-hotfix-branch-from-a-tag/README.md) Learn how to create a hotfix branch and solve a production issue
 * [__Pull request I:__](12-pull-request-i/README.md) Create a pull request from your GitHub repository and approve it
-* [__Pull request II:__](12-pull-request-ii/README.md) Resolve conflicts and see how a pull request works
+* [__Pull request II:__](13-pull-request-ii/README.md) Resolve conflicts and see how a pull request works
 
 ## License
 Copyright (C) 2017 GFT. All rights reserved.
