@@ -18,6 +18,11 @@ The exercises are attempt to practice the basics with Git usful during your day 
 * [__Pull request I:__](12-pull-request-i/README.md) Create a pull request from your GitHub repository and approve it
 * [__Pull request II:__](13-pull-request-ii/README.md) Resolve conflicts and see how a pull request works
 
+## Additional information
+You can find the following 2 sites useful to practice using Git commands
+* http://git-school.github.io/visualizing-git/ - A web site that executes and shows the result of your commands
+* https://learngitbranching.js.org/ - A nice web page with challenges to get used to Git
+
 ## License
 Copyright (C) 2017 GFT. All rights reserved.
 
