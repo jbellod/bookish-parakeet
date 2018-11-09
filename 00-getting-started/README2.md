@@ -1,4 +1,5 @@
 ## Getting started 2
+A) Using Eclipse
  1. Login/register on https://github.com/
  2. Create a repository ![alt text](resources/img/00.png)
  3. Copy clone URL ![alt text](resources/img/01.png)
@@ -6,6 +7,10 @@
  5. Ctrl + V ![alt text](resources/img/02.png)
  6. Import project ![alt text](resources/img/03.png)
  7. Open repository history ![alt text](resources/img/04.png)
+B) Using command line
+ Note: steps 1-3 are the same as for option (A)
+ 4. Install Git for Windows, eg. using https://gitforwindows.org/
+ 5. Open a Git Bash window
 
 ## License
 Copyright (C) 2017 GFT. All rights reserved.
