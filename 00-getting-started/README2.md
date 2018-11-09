@@ -38,6 +38,18 @@
     $ git clone <URL obtained from step 3>  
         Eg.  $ git clone https://github.com/victorbarresf/git-training.git  
 ```
+Note: in case of obtaining 'SSL certificate problems' error when doing the clone, you can use sslVerify global conf. parameter to false, as follows:
+
+```
+    $ git -c http.sslVerify=false clone <URL>  
+```  
+or  
+
+```    
+    $ git config --global http.sslVerify false
+    $ git clone <URL>
+```
+
 
 ## License
 Copyright (C) 2017 GFT. All rights reserved.
