@@ -35,20 +35,22 @@ $ git commit -m "Added line in branch"
    ```    
  4. Merge changes to master
    1. Switch to **master** branch  
-    ```
+   
+        ```
     $ git checkout master
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
-    ```
+        ```  
    2. Merge from **features/exercise3** to **master**  
-    ```
+    
+        ```
     $ git merge features/exercise3
 Updating fb5f3a8..ba59e8f
 Fast-forward
  README.md | 1 +
  1 file changed, 1 insertion(+)
-
-    ``` 
+        ``` 
+    
  5. Push the changes  
     ```
     $ git push -u origin master
@@ -65,20 +67,25 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
     ```
 
  6. Delete branch **features/exercise3**
-   1. Delete local branch  
+   1. Delete local branch    
+        
         ```
    $ git branch -D features/exercise3
 	Deleted branch features/exercise3 (was ba59e8f).
-        ```
+        ```  
    2. Delete remote branch (remote – push)  
         ```
     $ git push --delete origin features/exercise3
 	To https://github.com/victorbarresf/git-training.git
 	  - [deleted]         features/exercise3
-        ```
+        ```  
+        
  7. View GitHub  
 
-    Go to https://github.com/victorbarresf/git-training
+    Go to https://github.com/[GITHUB username]/git-training
+
+    Eg. https://github.com/victorbarresf/git-training
+
 
 ## License
 Copyright (C) 2017 GFT. All rights reserved.
