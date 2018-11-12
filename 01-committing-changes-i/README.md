@@ -36,7 +36,7 @@
     $ git commit		
     (enter message in editor)
 
-    $ git commit -m "First version"
+    $ git commit -m ""
 
     $ gitk
     ```
@@ -53,7 +53,7 @@
     
     $ git status
     
-    $ git commit -m "Add new line 2"
+    $ git commit -m ""
     
     $ gitk
     ````
@@ -66,7 +66,7 @@
     
     $ git status
     
-    $ git commit -a -m "Add new line 3"
+    $ git commit -a -m ""
     
     $ git status
     
