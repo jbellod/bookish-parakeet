@@ -1,7 +1,16 @@
 ## Merge with conflicts II
 
- 1. Switch to **master**
- 2. Create & commit to **master file_conflict.txt** from **GitHub** web interface.
+ 1. Switch to **master**  
+
+    ```
+    $ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+    ```  
+ 2. Create & commit to **master file_conflict.txt** from **GitHub** web interface.  
+
+![alt text](resources/img/00.png)
+
  3. Create & commit to **master file_conflict.txt** from **eclipse**.
  4. Fetch **master** branch and see the bifurcation in the history view.
  5. Merge **origin/master** onto **master**
