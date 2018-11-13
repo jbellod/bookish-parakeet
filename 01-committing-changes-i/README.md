@@ -47,7 +47,7 @@
     $ git commit		
     (enter message in editor)
 
-    $ git commit -m ""
+    $ git commit -m "First commit"
 
     $ gitk
     ```
@@ -64,7 +64,7 @@
     
     $ git status
     
-    $ git commit -m ""
+    $ git commit -m "Second commit"
     
     $ gitk
     ````
@@ -77,7 +77,7 @@
     
     $ git status
     
-    $ git commit -a -m ""
+    $ git commit -a -m "Third commit"
     
     $ git status
     
