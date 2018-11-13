@@ -45,7 +45,7 @@ $ git commit -m "Change to check stash"
  5. Back to **features/featureGFT**, recover the stash change and commit it.  
  
      ```
-     $ git checkout features/featureGFT
+    $ git checkout features/featureGFT
 Switched to branch 'features/featureGFT'
 $ git stash list
 stash@{0}: WIP on features/featureGFT: 486d5fa Second change in feature branch
