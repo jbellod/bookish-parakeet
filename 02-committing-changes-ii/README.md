@@ -26,6 +26,7 @@
  3. Combine all changes in a single commit (reset)  
     ````
     $ git reset --soft HEAD~2
+    $ git log     (notice the last 2 commits have left)
     $ git commit -m "Commit after reset"
     $ git log
     ````
