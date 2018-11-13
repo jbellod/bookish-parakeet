@@ -36,6 +36,9 @@ $ git commit -m "File with conflicts from cmd line"
     $ git fetch
     $ git log --all
     $ git log --pretty=format:"%h %s" --graph --all
+    * 8755993 File with conflicts from cmd line
+    | * 0af719f Create file_conflict.txt from GitHub
+    |/
     ```
     
  5. Merge **origin/master** onto **master**
