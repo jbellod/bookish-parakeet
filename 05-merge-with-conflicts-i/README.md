@@ -47,7 +47,7 @@ $ git add .
 $ git commit -m "First change in feature branch"
 [features/featureGFT 9621c56] First change in feature branch
  1 file changed, 1 insertion(+)
-$ vi README.mdgit
+$ vi README.mdg
 $ git add .
 $ git commit -m "Second change in feature branch"
 [features/featureGFT 486d5fa] Second change in feature branch
