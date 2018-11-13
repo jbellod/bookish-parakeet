@@ -58,6 +58,40 @@ $ git merge origin master
 Already up to date.
     ```    
 
+### Rebase sample  
+    
+    $ git checkout master
+    Already on 'master'
+    Your branch is up to date with 'origin/master'.
+    $ vi README.md
+    $ git add .
+    $ git commit -m "Check rebase"
+    [master 9fc275a] Check rebase
+    1 file changed, 1 insertion(+), 1 deletion(-)
+    $ git log    (write down the id of the last commit)
+    commit 9fc275add8450e652fe38087bc4d431cce510b4e (HEAD -> master)
+    Author: VRBS <victor.barres@gft.com>
+    Date:   Tue Nov 13 12:29:21 2018 +0100
+    Check rebase
+    ....
+    $ git checkout features/featureGFT
+    Switched to branch 'features/featureGFT'
+    $ vi other_file.txt
+    $ git add .
+    $ git commit -m "Created other file to check rebase"
+    [features/featureGFT 6750626] Created other file to check rebase
+    1 file changed, 2 insertions(+)
+    create mode 100644 other_file.txt
+    $ git log  	(write down the id of the last commit)
+    commit 67506260ab048ebc48a2392eb2491b8ae509ef7a (HEAD -> features/featureGFT)
+    Author: VRBS <victor.barres@gft.com>
+    Date:   Tue Nov 13 12:33:46 2018 +0100
+    Created other file to check rebase
+    $ git rebase master
+    $ git log      (review commitId)
+    $ git checkout master
+    $ git merge features/featureGFT 
+    
 ## License
 Copyright (C) 2017 GFT. All rights reserved.
 
