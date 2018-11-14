@@ -1,39 +1,30 @@
 ## Committing changes II
 
-### Exercise:
-
- 1. Make a change and commit (commit1)  
- 2. Make a change and commit (commit2)  
- 3. Combine all changes in a single commit (reset)  
- 4. Push  
-
-### Solution: 
-
  1. Make a change and commit (commit1)  
   
-    ````
-    $ vi README.md
-    $ git add .
-    $ git commit -m "Added line"
-    ````
+    <pre>
+    <b>$ vi README.md</b>
+    <b>$ git add .</b>
+    <b>$ git commit -m "Added line"</b>
+    </pre>
  2. Make a change and commit (commit2)  
-     ````
-    $ vi README.md
-    $ git add .
-    $ git commit -m "Added new line"
-    $ git log
-    ````
+    <pre>
+    <b>$ vi README.md</b>
+    <b>$ git add .</b>
+    <b>$ git commit -m "Added new line"</b>
+    <b>$ git log</b>
+    </pre>
  3. Combine all changes in a single commit (reset)  
-    ````
-    $ git reset --soft HEAD~2
-    $ git log     (notice the last 2 commits have left)
-    $ git commit -m "Commit after reset"
-    $ git log
-    ````
+    <pre>
+    <b>$ git reset --soft HEAD~2</b>
+    <b>$ git log</b>     (notice the last 2 commits have left)
+    <b>$ git commit -m "Commit after reset"</b>
+    <b>$ git log</b>
+    </pre>
  4. Push  
-    ```
-    $ git push -u origin master
-    ```
+    <pre>
+    <b>$ git push -u origin master</b>
+    </pre>
 
 ## License
 Copyright (C) 2017 GFT. All rights reserved.
