@@ -26,7 +26,7 @@ Your branch is up to date with 'origin/master'.
     <b>$ git log --all</b>
     <b>$ git log --pretty=format:"%h %s" --graph --all</b>
     *8755993 File with conflicts from cmd line
-    | * 0af719f Create file_conflict.txt from GitHub
+    | * 0af719f Create file_conflict.txt 
     |/
     ...
     </pre>
