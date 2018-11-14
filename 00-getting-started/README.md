@@ -24,9 +24,9 @@
  6. Configuring Git at the first time:  
  <pre>
     <b>$ git config --list  </b>
-    <b>$ git config --global user.name '<user name>'   </b>
+    <b>$ git config --global user.name '[user name]'   </b>
         Eg.: git config --global user.name 'VRBS'   
-    <b>$ git config --global user.email '<user email>'  </b>
+    <b>$ git config --global user.email '[user email]'  </b>
         Eg.: git config --global user.email 'victor.barres@gft.com'    
  </pre> 
 
