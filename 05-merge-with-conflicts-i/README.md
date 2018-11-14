@@ -1,83 +1,70 @@
 ## Merge with conflicts I
 
-### Exercise
-
- 1. Switch to **master**  
- 2. Commit 2 changes  
- 3. Switch to **features/featureGFT** 
- 4. Commit 2 changes
- 5. View history view  
- 6. Switch to **master** and merge **features/featureGFT** 
- 7. Resolve the conflicts and commit 
- 
-
-### Solution
-
  1. Switch to **master**  
 
-     ```
-     $ git checkout master
+     <pre>
+     <b>$ git checkout master</b>
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
-     ```  
+     </pre>
  2. Commit 2 changes  
-    ```
-    $ vi README.md
-$ git add .
-$ git commit -m "First change in master branch"
+    <pre>
+    <b>$ vi README.md</b>
+<b>$ git add .</b>
+<b>$ git commit -m "First change in master branch"</b>
 [master 1c70a90] First change in master branch
  1 file changed, 1 insertion(+)
-$ vi README.md
-$ git add .
-$ git commit -m "Second change in master branch"
+<b>$ vi README.md</b>
+<b>$ git add .</b>
+<b>$ git commit -m "Second change in master branch"</b>
 [master 17bbc25] Second change in master branch
  1 file changed, 1 insertion(+)
-    ```  
+    </pre>
  3. Switch to **features/featureGFT**  
  
-    ```
-    $ git checkout features/featureGFT
+    <pre>
+    <b>$ git checkout features/featureGFT</b>
     Switched to branch 'features/featureGFT'
-    ```
+    </pre>
  4. Commit 2 changes
 
-    ```
-    $ vi README.md
-$ git add .
-$ git commit -m "First change in feature branch"
+    <pre>
+    <b>$ vi README.md</b>
+<b>$ git add .</b>
+<b>$ git commit -m "First change in feature branch"</b>
 [features/featureGFT 9621c56] First change in feature branch
  1 file changed, 1 insertion(+)
-$ vi README.mdg
-$ git add .
-$ git commit -m "Second change in feature branch"
+<b>$ vi README.md</b>
+<b>$ git add .</b>
+<b>$ git commit -m "Second change in feature branch"</b>
 [features/featureGFT 486d5fa] Second change in feature branch
  1 file changed, 1 insertion(+)
-    ```  
+    </pre>
  5. View history view  
  
-    ```
-    $ git log --all
-    ```
+    <pre>
+    <b>$ git log --all</b>
+    </pre>
  6. Switch to **master** and merge **features/featureGFT**  
  
-    ```
-    $ git checkout master
+    <pre>
+    <b>$ git checkout master</b>
 Switched to branch 'master'
 Your branch is ahead of 'origin/master' by 2 commits.
   (use "git push" to publish your local commits)
-$ git merge features/featureGFT
+<b>$ git merge features/featureGFT</b>
 Auto-merging README.md
 CONFLICT (content): Merge conflict in README.md
 Automatic merge failed; fix conflicts and then commit the result.
-    ```  
+    </pre>
  7. Resolve the conflicts and commit  
-    ```
-    $ vi README.md
-$ git add .
-$ git commit -m "After solving conflicts"
+    <pre>
+    <b>$ vi README.md</b>
+<b>$ git add .</b>
+<b>$ git commit -m "After solving conflicts"</b>
 [master 4559aba] After solving conflicts
-$ git log
-    ```  
+<b>$ git log</b>
+    </pre>
 
 ## License
 Copyright (C) 2017 GFT. All rights reserved.
