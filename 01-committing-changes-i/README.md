@@ -1,23 +1,12 @@
 ## Committing changes I
 
-### Exercise:
 
-1. Make a change and commit (commit1)
-2. Make a change and commit (commit2)
-3. Make a change and commit (commit3)
-4. Refresh GitHub web
-5. Push 
-6. Refresh GitHub web
-
-### Solution: 
-
- 1. Make a change and commit (commit1)
+ 1. Make a change and commit (commit1)  
  
-    ```
-    $ vi README.md
+    <pre>
+    <b>$ vi README.md</b>
     (Add a new line, eg. "Edit 1")
-
-    $ git status
+    <b>$ git status</b>
 
     On branch master
     Your branch is up to date with 'origin/master'.
@@ -30,11 +19,11 @@
 
     no changes added to commit (use "git add" and/or "git commit -a")
 
-    $ git add README.md
+    <b>$ git add README.md</b>
     or
-    $ git add .
+    <b>$ git add .</b>
 
-    $ git status
+    <b>$ git status</b>
 
     On branch master
     Your branch is up to date with 'origin/master'.
@@ -44,46 +33,49 @@
 
         modified:   README.md
 		
-    $ git commit		
+    <b>$ git commit</b>
     (enter message in editor)
 
-    $ git commit -m "First commit"
+    <b>$ git commit -m "First commit"</b>
 
-    $ gitk
-    ```
+    <b>$ gitk</b>
+
+    </pre>
+    
  
  2. Make a change and commit (commit2)
 
-    ```` 
-    $ vi README.md
+    <pre>
+    <b>$ vi README.md</b>
     (Add a new line, eg. "Edit 2")
     
-    $ git status
+    <b>$ git status</b>
     
-    $ git add .
+    <b>$ git add .</b>
     
-    $ git status
+    <b>$ git status</b>
     
-    $ git commit -m "Second commit"
+    <b>$ git commit -m "Second commit"</b>
     
-    $ gitk
-    ````
+    <b>$ gitk</b>
+    </pre>
 
  3. Make a change and commit (commit3)
 
-    ````
-    $ vi README.md
+    <pre>
+    
+    <b>$ vi README.md</b>
     (Add a new line, eg. "Edit 3")
     
-    $ git status
+    <b>$ git status</b>
     
-    $ git commit -a -m "Third commit"
+    <b>$ git commit -a -m "Third commit"</b>
     
-    $ git status
+    <b>$ git status</b>
     
-    $ gitk
+    <b>$ gitk</b>
     
-    ````
+    </pre>
     
  4. Refresh GitHub web
     
@@ -96,8 +88,8 @@
         
  5. Push  
 
-    ```
-    $ git push -u origin master
+    <pre>
+    <b>$ git push -u origin master</b>
     Enumerating objects: 11, done.
 Counting objects: 100% (11/11), done.
 Delta compression using up to 4 threads
@@ -107,7 +99,8 @@ Total 9 (delta 0), reused 0 (delta 0)
 To https://github.com/victorbarresf/git-training.git
    a553100..7f48b60  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
-    ```  
+    </pre>  
+    
  6. Refresh GitHub web
 
     Go to https://github.com/<GITHUB username>/git-training
