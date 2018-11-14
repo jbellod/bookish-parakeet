@@ -6,8 +6,7 @@
     <pre>
     <b>$ vi README.md</b>
     (Add a new line, eg. "Edit 1")
-    <b>$ git status</b>
-
+    <b>$ git status</b>  
     On branch master
     Your branch is up to date with 'origin/master'.
 
@@ -23,8 +22,7 @@
     or
     <b>$ git add .</b>
 
-    <b>$ git status</b>
-
+    <b>$ git status</b>  
     On branch master
     Your branch is up to date with 'origin/master'.
 
@@ -79,7 +77,7 @@
     
  4. Refresh GitHub web
     
-    Go to https://github.com/<GITHUB username>/git-training
+    Go to https://github.com/[GITHUB username]/git-training
 
     Eg. https://github.com/victorbarresf/git-training
 
@@ -103,7 +101,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
     
  6. Refresh GitHub web
 
-    Go to https://github.com/<GITHUB username>/git-training
+    Go to https://github.com/[GITHUB username]/git-training
 
     Eg. https://github.com/victorbarresf/git-training
 
