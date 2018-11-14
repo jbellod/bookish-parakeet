@@ -1,64 +1,50 @@
 ## Creating and merging a branch II
 
-### Exercise
-
- 1. Create and switch to a new branch **features/featureGFT**  
- 2. Push the new branch  
- 3. Commit a change
- 4. Merge changes to master
-    1. Switch to **master** branch  
-    2. Merge from **features/featureGFT** to **master** creating a **merge commit**  
-    3. Don’t delete the branch
- 5. Push the changes  
- 6. View history
-
-### Solution
-
  1. Create and switch to a new branch **features/featureGFT**  
 
-     ```
-     $ git checkout -b features/featureGFT
+     <pre>
+     <b>$ git checkout -b features/featureGFT</b>
 	Switched to a new branch 'features/featureGFT'
-     ```
+     </pre>
  2. Push the new branch  
-    ```
-    $ git push origin features/featureGFT
+    <pre>
+    <b>$ git push origin features/featureGFT</b>
 Total 0 (delta 0), reused 0 (delta 0)
 remote:
 remote: Create a pull request for 'features/featureGFT' on GitHub by visiting:
 remote:      https://github.com/victorbarresf/git-training/pull/new/features/featureGFT
 remote:
 To https://github.com/victorbarresf/git-training.git
- * [new branch]      features/featureGFT -> features/featureGFT
-    ```
+ *[new branch]      features/featureGFT -> features/featureGFT
+    </pre>
  3. Commit a change  
-    ```
-    $ vi README.md
-$ git add .
-$ git commit -m "New line for featureGFT branch"
+    <pre>
+    <b>$ vi README.md</b>
+<b>$ git add .</b>
+<b>$ git commit -m "New line for featureGFT branch"</b>
 [features/featureGFT aa2e8e6] New line for featureGFT branch
  1 file changed, 1 insertion(+)
-    ```  
+    </pre>
  4. Merge changes to master
    1. Switch to **master** branch  
         
-        ```
-        $ git checkout master
+        <pre>
+        <b>$ git checkout master</b>
 	Switched to branch 'master'
 	Your branch is up to date with 'origin/master
-        ```  
+        </pre>
    2. Merge from **features/featureGFT** to **master** creating a **merge commit**  
         
-        ```
-        $ git merge --no-ff features/featureGFT
+        <pre>
+        <b>$ git merge --no-ff features/featureGFT</b>
 	Merge made by the 'recursive' strategy.
 	 README.md | 1 +
 	 1 file changed, 1 insertion(+)
-        ```  
+        </pre>
    3. Don’t delete the branch
  5. Push the changes  
-    ```
-$ git push -u origin master
+    <pre>
+<b>$ git push -u origin master</b>
 Enumerating objects: 6, done.
 Counting objects: 100% (6/6), done.
 Delta compression using up to 4 threads
@@ -69,15 +55,15 @@ remote: Resolving deltas: 100% (2/2), completed with 1 local object.
 To https://github.com/victorbarresf/git-training.git
    ba59e8f..3a9610f  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
-    ```  
+    </pre>
  6. View History  
-    ```
-    $ gitk
-    ```
+    <pre>
+    <b>$ gitk</b>
+    </pre>
     or  
-    ```
-    $ git log
-    ```
+    <pre>
+    <b>$ git log</b>
+    </pre>
 
 ## License
 Copyright (C) 2017 GFT. All rights reserved.
