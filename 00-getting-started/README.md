@@ -1,5 +1,10 @@
 ## Getting started
 
+1. [ Eclipse ](#eclipse)
+2. [ Command line ](#commandline)
+
+
+<a name="eclipse"></a>
 ### A) Using Eclipse
  1. Login/register on https://github.com/
  2. Create a repository   
@@ -14,6 +19,7 @@
  7. Open repository history   
  ![alt text](resources/img/04.png)
 
+<a name="commandline"></a>
 ### B) Using command line
  **Note**: steps 1-3 are the same as for option (A)  
  1. Login/register on https://github.com/ 
