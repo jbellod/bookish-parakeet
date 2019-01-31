@@ -5,7 +5,7 @@
 
 
 <a name="eclipse"></a>
-### A) Using Eclipse
+### Using Eclipse
  1. Login/register on https://github.com/
  2. Create a repository   
  ![alt text](resources/img/00.png)
@@ -20,7 +20,7 @@
  ![alt text](resources/img/04.png)
 
 <a name="commandline"></a>
-### B) Using command line
+### Using command line
  **Note**: steps 1-3 are the same as for option (A)  
  1. Login/register on https://github.com/ 
  2. Create a repository
