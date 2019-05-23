@@ -33,7 +33,7 @@ remote: Create a pull request for 'features/exercise3' on GitHub by visiting:
 remote:      https://github.com/victorbarresf/git-training/pull/new/features/exercise3
 remote:
 To https://github.com/victorbarresf/git-training.git
- *[new branch]      features/exercise3 -> features/exercise3
+ [new branch]      features/exercise3 -> features/exercise3
     </pre>
 
  
