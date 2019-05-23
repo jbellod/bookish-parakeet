@@ -2,7 +2,8 @@
 
 
  
-*  Create and switch to a new branch **features/exercise3** 
+
+1.  Create and switch to a new branch **features/exercise3** 
 
     <pre>
     <b>$ git branch features/exercise3</b>
@@ -13,12 +14,14 @@
     
     or
     
-    <pre>
+    `
     <b>$ git checkout -b features/exercise3</b>
     Switched to a new branch 'features/exercise3'
-    </pre>
+    `
  
- 2. Push the branch  
+ 
+
+2.  Push the branch  
     <pre>
     <b>$ git push origin features/exercise3</b>
  Total 0 (delta 0), reused 0 (delta 0)
