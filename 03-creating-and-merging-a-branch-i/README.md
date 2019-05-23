@@ -26,6 +26,7 @@ remote:
 To https://github.com/victorbarresf/git-training.git
  *[new branch]      features/exercise3 -> features/exercise3
     </pre>
+
  3. Commit a change  
    <pre>
    <b>$ vi README.md</b>
