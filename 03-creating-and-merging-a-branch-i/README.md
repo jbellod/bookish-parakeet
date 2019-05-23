@@ -26,7 +26,7 @@
 *  Push the branch  
     
     <pre>
-    $ git push origin features/exercise3
+    **$ git push origin features/exercise3**
  Total 0 (delta 0), reused 0 (delta 0)
 remote:
 remote: Create a pull request for 'features/exercise3' on GitHub by visiting:
