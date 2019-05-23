@@ -14,10 +14,10 @@
     
     or
     
-    `
+    <pre>
     <b>$ git checkout -b features/exercise3</b>
     Switched to a new branch 'features/exercise3'
-    `
+    </pre>
  
  
 
