@@ -34,16 +34,19 @@ To https://github.com/victorbarresf/git-training.git
 <b>$ git commit -m "Added line in branch"</b>
 [features/exercise3 ba59e8f] Added line in branch
  1 file changed, 1 insertion(+)
-   </pre>  
+   </pre>
+
  4. Merge changes to master
-   1. Switch to **master** branch  
+ 
+   4.1. Switch to **master** branch  
    
         <pre>
     <b>$ git checkout master</b>
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
         </pre>
-   2. Merge from **features/exercise3** to **master**  
+
+   4.2. Merge from **features/exercise3** to **master**  
     
         <pre>
     <b>$ git merge features/exercise3</b>
@@ -69,13 +72,15 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
     </pre>
 
  6. Delete branch **features/exercise3**
-   1. Delete local branch    
-        
+ 
+   6.1. Delete local branch    
+
         <pre>
    <b>$ git branch -D features/exercise3</b>
 	Deleted branch features/exercise3 (was ba59e8f).
         </pre>
-   2. Delete remote branch (remote – push)  
+   6.2. Delete remote branch (remote – push) 
+
         <pre>
     <b>$ git push --delete origin features/exercise3</b>
 	To https://github.com/victorbarresf/git-training.git
