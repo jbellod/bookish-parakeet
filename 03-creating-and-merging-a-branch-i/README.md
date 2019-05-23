@@ -1,7 +1,8 @@
 ## Creating and merging a branch I
 
 
- 1. Create and switch to a new branch **features/exercise3**  
+ 1. Create and switch to a new branch **features/exercise3** 
+
     <pre>
     <b>$ git branch features/exercise3</b>
    features/exercise3
