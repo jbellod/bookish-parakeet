@@ -3,7 +3,8 @@
 
  
 
-1.  Create and switch to a new branch **features/exercise3** 
+
+*  Create and switch to a new branch **features/exercise3** 
 
     <pre>
     <b>$ git branch features/exercise3</b>
@@ -21,7 +22,8 @@
  
  
 
-2.  Push the branch  
+
+*  Push the branch  
     <pre>
     <b>$ git push origin features/exercise3</b>
  Total 0 (delta 0), reused 0 (delta 0)
@@ -33,7 +35,8 @@ To https://github.com/victorbarresf/git-training.git
  *[new branch]      features/exercise3 -> features/exercise3
     </pre>
 
- 3. Commit a change  
+ 
+*  Commit a change  
    <pre>
    <b>$ vi README.md</b>
 <b>$ git add .</b>
@@ -42,9 +45,12 @@ To https://github.com/victorbarresf/git-training.git
  1 file changed, 1 insertion(+)
    </pre>
 
- 4. Merge changes to master
  
-   4.1. Switch to **master** branch  
+*  Merge changes to master
+ 
+   
+>  
+*  Switch to **master** branch  
    
         <pre>
     <b>$ git checkout master</b>
@@ -52,7 +58,9 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
         </pre>
 
-   4.2. Merge from **features/exercise3** to **master**  
+   
+>  
+*  Merge from **features/exercise3** to **master**  
     
         <pre>
     <b>$ git merge features/exercise3</b>
