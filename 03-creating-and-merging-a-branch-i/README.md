@@ -5,12 +5,13 @@
 
     <pre>
     <b>$ git branch features/exercise3</b>
-   features/exercise3
-   *master
+   features/exercise3 *master
     <b>$ git checkout features/exercise3</b>
    Switched to branch 'features/exercise3'
     </pre>
+    
     or
+    
     <pre>
     <b>$ git checkout -b features/exercise3</b>
     Switched to a new branch 'features/exercise3'
