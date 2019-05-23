@@ -48,9 +48,7 @@ To https://github.com/victorbarresf/git-training.git
  
 *  Merge changes to master
  
-   
->  
-*  Switch to **master** branch  
+Switch to **master** branch  
    
         <pre>
     <b>$ git checkout master</b>
@@ -58,9 +56,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
         </pre>
 
-   
->  
-*  Merge from **features/exercise3** to **master**  
+Merge from **features/exercise3** to **master**  
     
         <pre>
     <b>$ git merge features/exercise3</b>
@@ -70,7 +66,8 @@ Fast-forward
  1 file changed, 1 insertion(+)
         </pre>
     
- 5. Push the changes  
+
+*  Push the changes  
     <pre>
     <b>$ git push -u origin master</b>
 Enumerating objects: 5, done.
@@ -85,15 +82,16 @@ To https://github.com/victorbarresf/git-training.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
     </pre>
 
- 6. Delete branch **features/exercise3**
+
+*  Delete branch **features/exercise3**
  
-   6.1. Delete local branch    
+   Delete local branch    
 
         <pre>
    <b>$ git branch -D features/exercise3</b>
 	Deleted branch features/exercise3 (was ba59e8f).
         </pre>
-   6.2. Delete remote branch (remote – push) 
+   Delete remote branch (remote – push) 
 
         <pre>
     <b>$ git push --delete origin features/exercise3</b>
@@ -101,7 +99,8 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 	  -[deleted]         features/exercise3
         </pre>
         
- 7. View GitHub  
+ 
+*  View GitHub  
 
     Go to https://github.com/[GITHUB username]/git-training
 
