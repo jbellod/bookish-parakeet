@@ -24,7 +24,7 @@
 
 
 *  Push the branch  
-    <pre>
+    `
     <b>$ git push origin features/exercise3</b>
  Total 0 (delta 0), reused 0 (delta 0)
 remote:
@@ -33,7 +33,7 @@ remote:      https://github.com/victorbarresf/git-training/pull/new/features/exe
 remote:
 To https://github.com/victorbarresf/git-training.git
  *[new branch]      features/exercise3 -> features/exercise3
-    </pre>
+    '
 
  
 *  Commit a change  
