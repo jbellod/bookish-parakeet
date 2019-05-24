@@ -30,16 +30,14 @@
 
 4. Merge changes to master  
  
-* Switch to **master** branch  
-        
+Switch to **master** branch  
         <pre>
         <b>$ git checkout master</b>
 	    Switched to branch 'master'
 	    Your branch is up to date with 'origin/master
         </pre>  
 
-* Merge from **features/featureGFT** to **master** creating a **merge commit**  
-        
+Merge from **features/featureGFT** to **master** creating a **merge commit**  
         <pre>
         <b>$ git merge --no-ff features/featureGFT</b>
 	    Merge made by the 'recursive' strategy.
@@ -47,7 +45,7 @@
 	    1 file changed, 1 insertion(+)
         </pre>
 
-* Don’t delete the branch
+Don’t delete the branch
  
 5. Push the changes  
 
