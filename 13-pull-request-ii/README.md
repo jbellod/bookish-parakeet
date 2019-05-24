@@ -103,7 +103,7 @@
  6. Approve the PR  
  
 
-    ![alt text](resources/img/01.png) 
+    ![alt text](resources/img/02.png) 
 
 ## License
 Copyright (C) 2017 GFT. All rights reserved.
