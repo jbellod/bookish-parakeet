@@ -47,9 +47,8 @@
     ![alt text](resources/img/00.png)  
     ![alt text](resources/img/01.png)  
 
- 5. Resolve conflict in eclipse  
  
- 6. Fetch & merge **master** onto **features/feature13**    
+ 5. Fetch & merge **master** onto **features/feature13**    
    
     <pre>
         <b>$ git checkout master</b>
@@ -78,13 +77,13 @@
         Automatic merge failed; fix conflicts and then commit the result.
     </pre>  
 
-   2. Resolve conflicts  
+   6. Resolve conflicts  
 
         <pre>
         <b>$ vi Exercise13.txt</b>
         </pre>  
         
-   3. Commit & push (The PR will be update automatically)  
+   7. Commit & push (The PR will be update automatically)  
  
         <pre>
         <b>$ git add .</b>
@@ -100,7 +99,7 @@
         Branch 'features/feature13' set up to track remote branch 'features/feature13' from 'origin'.
         </pre>  
 
- 6. Approve the PR  
+ 7. Approve the PR  
  
 
     ![alt text](resources/img/02.png) 
