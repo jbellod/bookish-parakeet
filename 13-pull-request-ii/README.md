@@ -49,9 +49,9 @@
 
  5. Resolve conflict in eclipse  
  
- 6. Fetch & merge **master** onto **features/feature13**  
+ 6. Fetch & merge **master** onto **features/feature13**    
    
-        <pre>
+    <pre>
         <b>$ git checkout master</b>
         Switched to branch 'master'
         Your branch is up to date with 'origin/master'.
@@ -76,7 +76,7 @@
         Auto-merging Exercise13.txt
         CONFLICT (add/add): Merge conflict in Exercise13.txt
         Automatic merge failed; fix conflicts and then commit the result.
-        </pre>  
+    </pre>  
 
    2. Resolve conflicts  
 
