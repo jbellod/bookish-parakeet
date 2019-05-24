@@ -44,7 +44,7 @@
     <b>$ git checkout master</b>
     Switched to branch 'master'
     Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
+    (use "git push" to publish your local commits)
     <b>$ git merge hotfixes/hotfix1</b>
     </pre>
     
