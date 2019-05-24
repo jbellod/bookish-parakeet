@@ -39,14 +39,6 @@
     commit 6cb47c442d0b90952748b797814b486d38663093 (tag: v1.0, origin/master, origin/HEAD)
     Author: victorbarresf <44898471+victorbarresf@users.noreply.github.com>
     Date:   Mon Nov 12 18:20:02 2018 +0100
-    Create ExerciseCherry2.txt
-    diff --git a/ExerciseCherry2.txt b/ExerciseCherry2.txt
-    new file mode 100644
-    index 0000000..ebb844a
-    --- /dev/null
-    +++ b/ExerciseCherry2.txt
-    @@ -0,0 +1 @@
-    +ExerciseCherry1.txt
     </pre>
     
 
