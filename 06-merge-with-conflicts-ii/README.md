@@ -4,9 +4,10 @@
 
     <pre>
     <b>$ git checkout master</b>
-Switched to branch 'master'
-Your branch is up to date with 'origin/master'.
+    Switched to branch 'master'
+    Your branch is up to date with 'origin/master'.
     </pre>
+    
  2. Create & commit to **master file_conflict.txt** from **GitHub** web interface.  
 
     ![alt text](resources/img/00.png)
@@ -15,10 +16,11 @@ Your branch is up to date with 'origin/master'.
  3. Create & commit to **master file_conflict.txt** from **eclipse**. (here shown how to do it with command line)  
   
      <pre>
-<b>$ vi file_conflict.txt</b>
-<b>$ git add .</b>
-<b>$ git commit -m "File with conflicts from cmd line"</b>
-     </pre>
+        <b>$ vi file_conflict.txt</b>
+        <b>$ git add .</b>
+        <b>$ git commit -m "File with conflicts from cmd line"</b>
+    </pre>
+
  4. Fetch **master** branch and see the bifurcation in the history view.  
  
     <pre>
@@ -35,9 +37,9 @@ Your branch is up to date with 'origin/master'.
 
     <pre>
     <b>$ git merge origin master</b>
-Auto-merging file_conflict.txt
-CONFLICT (add/add): Merge conflict in file_conflict.txt
-Automatic merge failed; fix conflicts and then commit the result.
+    Auto-merging file_conflict.txt
+    CONFLICT (add/add): Merge conflict in file_conflict.txt
+    Automatic merge failed; fix conflicts and then commit the result.
     </pre>
 
  6. Resolve the conflicts and commit  

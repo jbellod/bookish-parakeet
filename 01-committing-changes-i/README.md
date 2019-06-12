@@ -89,14 +89,14 @@
     <pre>
     <b>$ git push -u origin master</b>
     Enumerating objects: 11, done.
-Counting objects: 100% (11/11), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (6/6), done.
-Writing objects: 100% (9/9), 848 bytes | 121.00 KiB/s, done.
-Total 9 (delta 0), reused 0 (delta 0)
-To https://github.com/victorbarresf/git-training.git
-   a553100..7f48b60  master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+    Counting objects: 100% (11/11), done.
+    Delta compression using up to 4 threads
+    Compressing objects: 100% (6/6), done.
+    Writing objects: 100% (9/9), 848 bytes | 121.00 KiB/s, done.
+    Total 9 (delta 0), reused 0 (delta 0)
+    To https://github.com/victorbarresf/git-training.git
+    a553100..7f48b60  master -> master
+    Branch 'master' set up to track remote branch 'master' from 'origin'.
     </pre>  
     
  6. Refresh GitHub web
