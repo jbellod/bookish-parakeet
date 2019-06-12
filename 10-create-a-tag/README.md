@@ -19,34 +19,26 @@
 
     <pre>
     <b>$ vi README.md</b>
-<b>$ git add .</b>
-<b>$ git commit -m "Test tag command"</b>
-[master 6db0994] Test tag command
- 1 file changed, 1 insertion(+)
-<b>$ git push origin v1.0</b>
-Enumerating objects: 1, done.
-Counting objects: 100% (1/1), done.
-Writing objects: 100% (1/1), 153 bytes | 51.00 KiB/s, done.
-Total 1 (delta 0), reused 0 (delta 0)
-To https://github.com/victorbarresf/git-training.git
- *[new tag]         v1.0 -> v1.0
-<b>$ git tag</b>
-v1.0
-<b>$ git show v1.0</b>
-tag v1.0
-Tagger: VRBS <victor.barres@gft.com>
-Date:   Tue Nov 13 09:06:45 2018 +0100
-commit 6cb47c442d0b90952748b797814b486d38663093 (tag: v1.0, origin/master, origin/HEAD)
-Author: victorbarresf <44898471+victorbarresf@users.noreply.github.com>
-Date:   Mon Nov 12 18:20:02 2018 +0100
-    Create ExerciseCherry2.txt
-diff --git a/ExerciseCherry2.txt b/ExerciseCherry2.txt
-new file mode 100644
-index 0000000..ebb844a
---- /dev/null
-+++ b/ExerciseCherry2.txt
-@@ -0,0 +1 @@
-+ExerciseCherry1.txt
+    <b>$ git add .</b>
+    <b>$ git commit -m "Test tag command"</b>
+    [master 6db0994] Test tag command
+    1 file changed, 1 insertion(+)
+    <b>$ git push origin v1.0</b>
+    Enumerating objects: 1, done.
+    Counting objects: 100% (1/1), done.
+    Writing objects: 100% (1/1), 153 bytes | 51.00 KiB/s, done.
+    Total 1 (delta 0), reused 0 (delta 0)
+    To https://github.com/victorbarresf/git-training.git
+    *[new tag]         v1.0 -> v1.0
+    <b>$ git tag</b>
+    v1.0
+    <b>$ git show v1.0</b>
+    tag v1.0
+    Tagger: VRBS <victor.barres@gft.com>
+    Date:   Tue Nov 13 09:06:45 2018 +0100
+    commit 6cb47c442d0b90952748b797814b486d38663093 (tag: v1.0, origin/master, origin/HEAD)
+    Author: victorbarresf <44898471+victorbarresf@users.noreply.github.com>
+    Date:   Mon Nov 12 18:20:02 2018 +0100
     </pre>
     
 
