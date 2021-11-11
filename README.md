@@ -1,3 +1,4 @@
+EDIT 1 (JORGE)
 # Git Workshop Exercises
 
 This project contains the practical excercise used during Git Training course that is part of the SDCL Training Path. The presentation used during the course is available here, https://prezi.com/vjtb6zuxohjk/introduction-to-git/.
